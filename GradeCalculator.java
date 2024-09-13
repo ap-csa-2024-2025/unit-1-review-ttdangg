@@ -30,7 +30,7 @@ public class GradeCalculator
     System.out.println(final_exam_score);
 
     int time_hour = (time_spent/60);
-    int leftover_time = (time_spent%24);
+    int leftover_time = (time_spent%60);
     System.out.println("Weekly time spent: " + time_hour + "h" + leftover_time);
     
     
